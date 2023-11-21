@@ -12,15 +12,19 @@ const HomeComponent = () => {
             {/* banner section start */}
             <Banner></Banner>
             {/* banner section banner section end */}
+
             {/* gallery section start */}
             <Gallery></Gallery>
             {/* gallery section end */}
+
             {/* services section start */}
             <Services></Services>
             {/* services section end */}
+            
             {/* award section start */}
             <Award></Award>
             {/* award section end */}
+
             {/* clients section start */}
             <Clients></Clients>
             {/* clients section end */}
