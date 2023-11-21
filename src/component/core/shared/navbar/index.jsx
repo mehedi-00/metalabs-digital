@@ -1,6 +1,8 @@
 import { navbar } from "@/src/constant/navbar";
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import CloseIcon from '@mui/icons-material/Close';
+import DehazeIcon from '@mui/icons-material/Dehaze';
 
 
 const Navbar = () => {
@@ -39,7 +41,7 @@ const Navbar = () => {
           </div>
           <div>
             {
-              show ? <button onClick={() => {setShow(false)}}><p className='text-black w-6 h-6'>Hide</p></button> : <button onClick={() => {setShow(true)}}><p className='text-black w-6 h-6'>Show</p></button>
+              show ? <button onClick={() => {setShow(false)}}><p className='text-black w-6 h-6'><CloseIcon></CloseIcon></p></button> : <button onClick={() => {setShow(true)}}><p className='text-black w-6 h-6'><DehazeIcon></DehazeIcon></p></button>
             }
           </div>
         </div>

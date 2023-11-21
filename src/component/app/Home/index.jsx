@@ -1,6 +1,8 @@
+import ContactUs from "../ContactUs";
 import Award from "./Award";
 import Banner from "./Banner";
 import Clients from "./Clients";
+import FooterForm from "./FooterForm";
 import Gallery from "./Gallery";
 import Services from "./Services";
 
@@ -28,6 +30,10 @@ const HomeComponent = () => {
             {/* clients section start */}
             <Clients></Clients>
             {/* clients section end */}
+
+            {/* contactUs section start */}
+            <FooterForm></FooterForm>
+            {/* contactUs section end */}
         </div>
     );
 };
