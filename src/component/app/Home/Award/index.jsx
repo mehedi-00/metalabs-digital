@@ -1,11 +1,18 @@
 import React from 'react';
 import Image from 'next/image';
 import award from '../../../../../public/award/award.svg'
-import { Carousel } from 'react-responsive-carousel';
-
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from 'react-slick';
 
 const Award = () => {
-
+  var settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1
+  };
   
 
   return (
@@ -46,9 +53,8 @@ const Award = () => {
             </div>
           </div>
         </Slider> */}
-        <Carousel>
-          <div className='grid grid-cols-3'>
-            <div className="mx-auto text-center">
+        <Slider {...settings}>
+        <div className="mx-auto text-center">
             <Image src={award} className='mx-auto'></Image>
             <div className="text-center mt-2">
               <h5 className="text-blue-600 sm:text-base md:text-xl font-bold">Grand Prix</h5>
@@ -58,6 +64,7 @@ const Award = () => {
               </p>
             </div>
           </div>
+
           <div className="mx-auto text-center">
             <Image src={award} className='mx-auto'></Image>
             <div className="text-center mt-2">
@@ -78,9 +85,7 @@ const Award = () => {
               </p>
             </div>
           </div>
-          </div>
-          
-            </Carousel>
+        </Slider>
       </div>
       {/* award section end */}
     </div>
