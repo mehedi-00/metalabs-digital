@@ -8,6 +8,7 @@ import clients6 from '../../../../../public/clients/clients6.png'
 import clients7 from '../../../../../public/clients/clients7.png'
 import clients8 from '../../../../../public/clients/clients8.png'
 import Image from 'next/image';
+import Marquee from "react-fast-marquee";
 
 const Clients = () => {
   return (
@@ -20,8 +21,8 @@ const Clients = () => {
         </div>
         {/* title section end */}
         {/* clients section start */}
-        <div className='grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8 my-10'>
-          <div>
+        <Marquee speed={100} className='grid grid-cols-1 my-10'>
+        <div>
             <Image src={clients1}></Image>
           </div>
           <div>
@@ -45,7 +46,7 @@ const Clients = () => {
           <div>
             <Image src={clients8}></Image>
           </div>
-        </div>
+        </Marquee>
         {/* clients section end */}
         {/* button section start */}
         <div className="flex justify-center">

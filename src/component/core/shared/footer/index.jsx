@@ -1,7 +1,8 @@
 
+
 const Footer = () => {
     return (
-        <div className="bg-black py-10">
+        <div className="py-10 footerBg">
             {/* footer section start */}
             <div className="container mx-auto">
                 <div className="grid grid-cols-1">
