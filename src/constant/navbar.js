@@ -10,5 +10,29 @@ export const navbar = [
     {
         label: 'Services',
         link: '/services',
-    }
+    },
+    {
+        label: 'Products',
+        link: '/products',
+    },
+    {
+        label: 'Our Work',
+        link: '/our-work',
+    },
+    {
+        label: 'Clients',
+        link: '/clients',
+    },
+    {
+        label: 'Analyzers',
+        link: '/analyzers',
+    },
+    {
+        label: 'Career',
+        link: '/career',
+    },
+    {
+        label: 'Contact Us',
+        link: '/contact-us',
+    },
 ]
