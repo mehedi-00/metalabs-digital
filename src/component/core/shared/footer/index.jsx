@@ -4,9 +4,10 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import YouTubeIcon from '@mui/icons-material/YouTube';
 
+
 const Footer = () => {
     return (
-        <div className="bg-black py-10">
+        <div className="py-10 footerBg">
             {/* footer section start */}
             <div className="container mx-auto">
                 <div className="grid grid-cols-1">
