@@ -28,7 +28,9 @@ const Navbar = () => {
     return (
     <div>
       <div className={`${isScrolled ? "navbar" : 'nav'} md:flex justify-between items-center hidden`}>
-      <span className="md:text-xl lg:text-2xl font-bold"><i>Metalabs-Digital</i></span>
+      <span className="md:text-xl pt-3 lg:text-2xl font-bold">
+        <img src="/mlogo.png" width='100px' height='50px' alt="" />
+      </span>
       <div className="flex md:gap-x-2 lg:gap-x-4">
         {navbar.map((item, index) => <Link className="md:text-sm lg:text-base" key={index} href={item?.link}>{item?.label}</Link>)}</div>
       </div>

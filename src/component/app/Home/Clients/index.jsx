@@ -49,9 +49,9 @@ const Clients = () => {
         </Marquee>
         {/* clients section end */}
         {/* button section start */}
-        <div className="flex justify-center">
+        {/* <div className="flex justify-center">
           <button className='border-2 border-blue-400 py-2 px-5 text-blue-400 hover:bg-blue-400 hover:text-white'>More Clients</button>
-        </div>
+        </div> */}
         {/* button section end */}
       </div>
       {/* clients section end */}
