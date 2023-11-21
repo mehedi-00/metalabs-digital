@@ -4,6 +4,34 @@ import award from '../../../../../public/award/award.svg'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from 'react-slick';
+import { awardData } from '@/src/constant/awardData';
+
+const CustomPrevArrow = (props) => (
+  <div
+    {...props}
+    style={{ ...props.style, left: '20px', zIndex: 1}}
+  >
+    <button className="custom-arrow text-green-50">Previous</button>
+  </div>
+  
+  
+);
+
+const CustomNextArrow = (props) => (
+
+  <div
+    {...props}
+    style={{ ...props.style, right: '20px', zIndex: 1}}
+  >
+    <button className="custom-arrow text-green-50">Next</button>
+  </div>
+  
+);
+
+
+
+
+
 
 const Award = () => {
   var settings = {
@@ -11,80 +39,33 @@ const Award = () => {
     infinite: true,
     speed: 500,
     slidesToShow: 1,
-    slidesToScroll: 1
+    slidesToScroll: 1,
+    prevArrow: <CustomPrevArrow />,
+    nextArrow: <CustomNextArrow />
   };
   
 
+
   return (
-    <div className='bg-slate-100'>
+    <div className='bg-black py-10'>
       {/* award section start */}
-      <div className='container mx-auto h-96'>
-        {/* <Slider {...settings}>
-
-          <div className="mx-auto text-center">
-            <Image src={award} className='mx-auto'></Image>
-            <div className="text-center mt-2">
-              <h5 className="text-blue-600 sm:text-base md:text-xl font-bold">Grand Prix</h5>
-              <h6 className="text-blue-600 my-1 sm:text-base md:text-xl font-bold">Best App Market</h6>
-              <p className='text-black sm:text-sm md:text-lg'>Digital Marketing award-2018<br></br>
-              Lifebuoy-High5 for handwashing
-              </p>
-            </div>
-          </div>
-
-          <div className="mx-auto text-center">
-            <Image src={award} className='mx-auto'></Image>
-            <div className="text-center mt-2">
-              <h5 className="text-blue-600 sm:text-base md:text-xl font-bold">Grand Prix</h5>
-              <h6 className="text-blue-600 sm:text-base my-1 md:text-xl font-bold">Best App Market</h6>
-              <p className='text-black sm:text-sm md:text-lg'>Digital Marketing award-2018<br></br>
-              Lifebuoy-High5 for handwashing
-              </p>
-            </div>
-          </div>
-          <div className="mx-auto text-center">
-            <Image src={award} className='mx-auto'></Image>
-            <div className="text-center mt-2">
-              <h5 className="text-blue-600 sm:text-base md:text-xl font-bold">Grand Prix</h5>
-              <h6 className="text-blue-600 sm:text-base my-1 md:text-xl font-bold">Best App Market</h6>
-              <p className='text-black sm:text-sm md:text-lg'>Digital Marketing award-2018<br></br>
-              Lifebuoy-High5 for handwashing
-              </p>
-            </div>
-          </div>
-        </Slider> */}
+      <div className='container mx-auto'>
+      
         <Slider {...settings}>
-        <div className="mx-auto text-center">
+          {
+            awardData.map((data, index) => (
+              <div className="mx-auto text-center" key={index}>
             <Image src={award} className='mx-auto'></Image>
             <div className="text-center mt-2">
-              <h5 className="text-blue-600 sm:text-base md:text-xl font-bold">Grand Prix</h5>
-              <h6 className="text-blue-600 my-1 sm:text-base md:text-xl font-bold">Best App Market</h6>
-              <p className='text-black sm:text-sm md:text-lg'>Digital Marketing award-2018<br></br>
-              Lifebuoy-High5 for handwashing
-              </p>
+              <h5 className="text-blue-600 sm:text-base md:text-xl font-bold">{data.title}</h5>
+              <p className='text-white sm:text-sm md:text-lg'>{data.description1}</p>
+              <p className='text-white sm:text-sm md:text-lg'>{data.description2}</p>
             </div>
-          </div>
+        </div>
+            ))
+          }
+        
 
-          <div className="mx-auto text-center">
-            <Image src={award} className='mx-auto'></Image>
-            <div className="text-center mt-2">
-              <h5 className="text-blue-600 sm:text-base md:text-xl font-bold">Grand Prix</h5>
-              <h6 className="text-blue-600 sm:text-base my-1 md:text-xl font-bold">Best App Market</h6>
-              <p className='text-black sm:text-sm md:text-lg'>Digital Marketing award-2018<br></br>
-              Lifebuoy-High5 for handwashing
-              </p>
-            </div>
-          </div>
-          <div className="mx-auto text-center">
-            <Image src={award} className='mx-auto'></Image>
-            <div className="text-center mt-2">
-              <h5 className="text-blue-600 sm:text-base md:text-xl font-bold">Grand Prix</h5>
-              <h6 className="text-blue-600 sm:text-base my-1 md:text-xl font-bold">Best App Market</h6>
-              <p className='text-black sm:text-sm md:text-lg'>Digital Marketing award-2018<br></br>
-              Lifebuoy-High5 for handwashing
-              </p>
-            </div>
-          </div>
         </Slider>
       </div>
       {/* award section end */}
