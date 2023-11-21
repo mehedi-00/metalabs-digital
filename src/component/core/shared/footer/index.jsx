@@ -1,3 +1,8 @@
+// import FacebookOutlinedIcon from '@mui/icons-material/FacebookOutlined';
+import FacebookIcon from '@mui/icons-material/Facebook';
+import TwitterIcon from '@mui/icons-material/Twitter';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import YouTubeIcon from '@mui/icons-material/YouTube';
 
 const Footer = () => {
     return (
@@ -16,28 +21,28 @@ const Footer = () => {
                         {/* address section start */}
                         <div className="flex justify-center text-white">
                             <p className="mt-2 text-sm sm:text-base md:text-lg">
-                            Analyzen Innovation Lab<br></br>
-                            Level 1, House 1A, Road 16/A, Gulshan 1<br></br>
-                            Dhaka-1212, Bangladesh.
+                                Analyzen Innovation Lab<br></br>
+                                Level 1, House 1A, Road 16/A, Gulshan 1<br></br>
+                                Dhaka-1212, Bangladesh.
                             </p>
                         </div>
                         {/* address section end */}
                         {/* contact section start */}
                         <div className="block text-white mt-2">
                             <p className="text-sm sm:text-base md:text-lg">
-                            <a href="#">+88-01713079712</a>
+                                <a href="#">+88-01713079712</a>
                             </p>
                             <p className="mt-1 text-sm sm:text-base md:text-lg">
-                            <a href="#">mail@analyzenbd.com</a>
+                                <a href="#">mail@analyzenbd.com</a>
                             </p>
                         </div>
                         {/* contact section end */}
                         {/* social section start */}
-                        <div className="grid grid-cols-4 md:gap-10 text-white md:w-56 mx-auto w-60 my-5">
-                            <p className="bg-white text-black w-10 h-10 rounded-full text-center"><a href="#">one</a></p>
-                            <p className="bg-white text-black w-10 h-10 rounded-full text-center"><a href="#">two</a></p>
-                            <p className="bg-white text-black w-10 h-10 rounded-full text-center"><a href="#">three</a></p>
-                            <p className="bg-white text-black w-10 h-10 rounded-full text-center"><a href="#">four</a></p>
+                        <div className="grid grid-cols-4 text-white md:w-56 mx-auto w-60 my-5">
+                            <p className=" text-white text-center"><a href="#"><FacebookIcon fontSize='large' /></a></p>
+                            <p className=" text-white text-center"><a href="#"><TwitterIcon fontSize='large' /></a></p>
+                            <p className=" text-white text-center"><a href="#"><LinkedInIcon fontSize='large' /></a></p>
+                            <p className=" text-white text-center"><a href="#"><YouTubeIcon fontSize='large' /></a></p>
                         </div>
                         {/* social section end */}
                         {/* reserved section start */}
