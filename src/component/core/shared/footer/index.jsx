@@ -7,13 +7,13 @@ import YouTubeIcon from '@mui/icons-material/YouTube';
 
 const Footer = () => {
     return (
-        <div className="py-10 footerBg">
+        <div className="sm:py-10 footerBg ">
             {/* footer section start */}
             <div className="container mx-auto">
                 <div className="grid grid-cols-1">
                     <div className="text-center">
                         {/* country section start */}
-                        <div className="block sm:flex justify-center gap-8 text-white">
+                        <div className="  flex justify-center gap-8 text-white">
                             <p className="text-xl md:text-2xl">Bangladesh</p>
                             <p className="mt-1 sm:mt-0 text-xl md:text-2xl">Singapore</p>
                             <p className="mt-1 sm:mt-0 text-xl md:text-2xl">Myanmar</p>
@@ -39,7 +39,7 @@ const Footer = () => {
                         </div>
                         {/* contact section end */}
                         {/* social section start */}
-                        <div className="grid grid-cols-4 text-white md:w-56 mx-auto w-60 my-5">
+                        <div className="grid grid-cols-4 text-white md:w-56 mx-auto w-60 my-2">
                             <p className=" text-white text-center"><a href="#"><FacebookIcon fontSize='large' /></a></p>
                             <p className=" text-white text-center"><a href="#"><TwitterIcon fontSize='large' /></a></p>
                             <p className=" text-white text-center"><a href="#"><LinkedInIcon fontSize='large' /></a></p>
