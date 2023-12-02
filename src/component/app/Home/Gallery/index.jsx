@@ -11,7 +11,7 @@ const Gallery = () => {
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
         {/* data start */}
         {
-          gallery.map((data, index) => <div className="relative" key={index}>
+          gallery.slice(0,6).map((data, index) => <div className="relative" key={index}>
             <Image src={gallery1}></Image>
             <div className="absolute bg-black opacity-0 hover:opacity-50 top-0 bottom-0 left-0 right-0 duration-300">
               <div className="relative h-full">

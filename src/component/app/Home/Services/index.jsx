@@ -11,9 +11,9 @@ import Image from 'next/image';
 
 const Services = () => {
   return (
-    <div className='my-10'>
+    <div className='my-10 container'>
       {/* services section start */}
-      <div className='container mx-auto'>
+      <div className='mx-auto'>
         {/* title section start */}
         <div className='flex justify-center'>
           <div className='text-center'>

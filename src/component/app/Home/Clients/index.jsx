@@ -5,14 +5,12 @@ import clients3 from '../../../../../public/clients/clients3.png'
 import clients4 from '../../../../../public/clients/clients4.png'
 import clients5 from '../../../../../public/clients/clients5.png'
 import clients6 from '../../../../../public/clients/clients6.png'
-import clients7 from '../../../../../public/clients/clients7.png'
-import clients8 from '../../../../../public/clients/clients8.png'
 import Image from 'next/image';
 import Marquee from "react-fast-marquee";
 
 const Clients = () => {
   return (
-    <div className="my-10">
+    <div className="mt-16 mb-28">
       {/* clients section start */}
       <div className='container mx-auto'>
         {/* title section start */}
@@ -39,12 +37,6 @@ const Clients = () => {
           </div>
           <div>
             <Image src={clients6}></Image>
-          </div>
-          <div>
-            <Image src={clients7}></Image>
-          </div>
-          <div>
-            <Image src={clients8}></Image>
           </div>
         </Marquee>
         {/* clients section end */}

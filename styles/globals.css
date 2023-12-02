@@ -11,6 +11,12 @@
   position: relative;
 }
 
+
+.container{
+  @apply max-w-7xl mx-auto
+}
+
+
 .signal {
   width: 100px;
   height: 100px;
