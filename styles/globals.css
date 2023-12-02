@@ -4,12 +4,31 @@
 
 
 .bannerBg{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.411), rgba(0, 0, 0, 0.507)), url('../public/bannerBg.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.411), rgba(0, 0, 0, 0.734)), url('../public/bannerBg.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 100%;
   position: relative;
+}
 
+.signal {
+  width: 100px;
+  height: 100px;
+  background-color: transparent;
+  border: 3px solid #3498db;
+  border-radius: 50%;
+  animation: signal-animation 1s infinite;
+}
+
+@keyframes signal-animation {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(2);
+    opacity: 0;
+  }
 }
 
 .footerBg{

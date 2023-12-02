@@ -1,9 +1,9 @@
 import ContactUs from "../ContactUs";
-import Award from "./Award";
 import Banner from "./Banner";
 import Clients from "./Clients";
 import FooterForm from "./FooterForm";
 import Gallery from "./Gallery";
+import Team from "./OurTeam/Team";
 import Services from "./Services";
 
 
@@ -22,10 +22,10 @@ const HomeComponent = () => {
             {/* services section start */}
             <Services></Services>
             {/* services section end */}
-            
-            {/* award section start */}
-            <Award></Award>
-            {/* award section end */}
+
+            {/* Team section start */}
+            <Team />
+            {/* Team section end */}
 
             {/* clients section start */}
             <Clients></Clients>
