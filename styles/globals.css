@@ -37,12 +37,12 @@
   }
 }
 
-.footerBg{
-  background-image: url('../public/footer/footer.gif');
+/* .footerBg{
+  background-image: url('../public/footer/footer-image.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-}
+} */
 
 .nav{
   position: fixed;

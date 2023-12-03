@@ -1,8 +1,7 @@
 import Image from "next/image";
-import gallery1 from '../../../../../public/gallery1.jpg'
 import { gallery } from "@/src/constant/gallery";
 import AddLinkIcon from '@mui/icons-material/AddLink';
-
+import image from '../../../../../public/galary iamge/gallery3.jpg'
 
 const Gallery = () => {
   return (
@@ -11,8 +10,8 @@ const Gallery = () => {
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
         {/* data start */}
         {
-          gallery.slice(0,6).map((data, index) => <div className="relative" key={index}>
-            <Image src={gallery1}></Image>
+          gallery.slice(0, 6).map((data, index) => <div className="relative" key={index}>
+            <Image src={image}></Image>
             <div className="absolute bg-black opacity-0 hover:opacity-50 top-0 bottom-0 left-0 right-0 duration-300">
               <div className="relative h-full">
                 <div className="absolute transform translate-x-52 translate-y-28 sm:translate-x-40 sm:translate-y-28 md:translate-x-48 md:translate-y-36">
