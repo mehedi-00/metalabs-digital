@@ -8,8 +8,8 @@ export const navbar = [
         link: '/about-us',
     },
     {
-        label: 'Services',
-        link: '/services',
+        label: 'Service',
+        link: '/service',
     },
     {
         label: 'Products',
@@ -20,8 +20,8 @@ export const navbar = [
         link: '/our-work',
     },
     {
-        label: 'Clients',
-        link: '/clients',
+        label: 'Our Team',
+        link: '/our-team',
     },
     {
         label: 'Analyzers',

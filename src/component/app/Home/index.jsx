@@ -1,9 +1,11 @@
 import ContactUs from "../ContactUs";
+
 import Award from "./Award";
 import Banner from "./Banner";
 import Clients from "./Clients";
 import FooterForm from "./FooterForm";
 import Gallery from "./Gallery";
+
 import Services from "./Services";
 
 
@@ -26,6 +28,8 @@ const HomeComponent = () => {
             {/* award section start */}
             <Award></Award>
             {/* award section end */}
+
+
 
             {/* clients section start */}
             <Clients></Clients>
