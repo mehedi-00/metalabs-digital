@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { gallery } from "@/src/constant/gallery";
 import AddLinkIcon from '@mui/icons-material/AddLink';
-import image from '../../../../../public/galary iamge/gallery3.jpg'
+import image from '../../../../../public/galleryImage/gallery3.jpg'
 
 const Gallery = () => {
   return (

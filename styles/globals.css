@@ -4,7 +4,17 @@
 
 
 .bannerBg{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.411), rgba(0, 0, 0, 0.734)), url('../public/bannerBg.jpg');
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.652)),
+  url('../public/bannerBg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100%;
+  position: relative;
+}
+
+.footerBg{
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.822)),
+  url('../public/bannerBg.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 100%;
