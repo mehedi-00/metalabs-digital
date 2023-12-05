@@ -2,7 +2,7 @@ import React from 'react';
 
 const ServiceBanner = () => {
   return (
-    <div className='container mx-auto h-[350px] sm:h-80 md:h-96 lg:h-[500px]  text-center'>
+    <div className='container mx-auto h-[350px] sm:h-80 md:h-96 lg:h-[500px]  text-center bg-black text-white'>
       <div className='flex justify-center items-center h-full'>
       <div>
         <div className='mb-3 sm:mb-5 md:mb-8 lg:mb-10'>
