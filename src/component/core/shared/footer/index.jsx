@@ -7,7 +7,7 @@ import YouTubeIcon from '@mui/icons-material/YouTube';
 
 const Footer = () => {
     return (
-        <div className="sm:py-10 bannerBg ">
+        <div className="sm:py-10 footerBg ">
             {/* footer section start */}
             <div className="container mx-auto">
                 <div className="grid grid-cols-1">
