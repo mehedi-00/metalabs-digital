@@ -1,18 +1,18 @@
 import React from 'react';
-import clients1 from '../../../../../public/clients/clients1.png'
-import clients2 from '../../../../../public/clients/clients2.png'
-import clients3 from '../../../../../public/clients/clients3.png'
-import clients4 from '../../../../../public/clients/clients4.png'
-import clients5 from '../../../../../public/clients/clients5.png'
-import clients6 from '../../../../../public/clients/clients6.png'
-import clients7 from '../../../../../public/clients/clients7.png'
-import clients8 from '../../../../../public/clients/clients8.png'
+import clients1 from '../../../../../public/clients/client1.png'
+import clients2 from '../../../../../public/clients/client2.png'
+import clients3 from '../../../../../public/clients/client3.png'
+import clients4 from '../../../../../public/clients/client4.png'
+import clients5 from '../../../../../public/clients/client5.png'
+import clients6 from '../../../../../public/clients/client6.png'
+import clients7 from '../../../../../public/clients/client7.png'
+import clients8 from '../../../../../public/clients/client8.png'
 import Image from 'next/image';
 import Marquee from "react-fast-marquee";
 
 const Clients = () => {
   return (
-    <div className="my-10">
+    <div className="mt-16 mb-28">
       {/* clients section start */}
       <div className='container mx-auto'>
         {/* title section start */}

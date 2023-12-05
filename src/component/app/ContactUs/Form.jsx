@@ -17,7 +17,6 @@ const Form = () => {
           const number = form.number.value;
           const message = form.message.value;
           console.log(name, companyName, email, number, message);
-          
      }
 
 
@@ -46,7 +45,7 @@ const Form = () => {
                               <textarea name="message" id="" className='border-b-2 border-black ps-8 pb-3 bg-transparent w-full outline-none' cols="30" rows="6" placeholder='Your Message'></textarea>
                               <h1 className='absolute left-0'><MessageIcon/></h1>
                          </div>
-                         <button className='px-4 py-2 border border-black rounded-md font-bold'>Send</button>
+                         <button className='px-4 py-2 border hover:bg-white hover:text-black border-black bg-black text-white rounded-md font-bold'>Send</button>
                     </form>
                </div>
           </div>
