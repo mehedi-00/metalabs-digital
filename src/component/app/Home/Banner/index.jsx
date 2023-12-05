@@ -11,9 +11,12 @@ const Banner = () => {
 
   return (
     <div className='bannerBg text-white'>
-      <div className='container md:pt-28 pt-40 mx-auto h-[720px] md:h-[620px] w-full'>
+      <div className='container md:pt-28 pt-40 mx-auto h-[720px] md:h-[620px] w-full' >
         {/* banner section start */}
-        <div className='flex ps-3 md:ps-0 flex-col justify-center items-center'>
+        <div className='flex ps-3 md:ps-0 flex-col justify-center items-center'
+          data-aos="zoom-in-up"
+          data-aos-duration="2000"
+        >
           <h1 className='text-2xl md:text-7xl font-bold uppercase'>Welcome to metalab digital</h1>
           <p className="text-xl md:text-3xl font-bold mt-5">Forging innovation through collaborative knowledge exploration</p>
           <button className="my-8 uppercase bg-cyan-400 rounded-md px-4 py-3">
