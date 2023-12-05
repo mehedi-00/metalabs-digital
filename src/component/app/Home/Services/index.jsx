@@ -15,7 +15,11 @@ const Services = () => {
       {/* services section start */}
       <div className='mx-auto'>
         {/* title section start */}
-        <div className='flex justify-center'>
+        <div className='flex justify-center'
+          data-aos="fade-up"
+          data-aos-easing="linear"
+          data-aos-duration="1500"
+        >
           <div className='text-center'>
             <h2 className='text-xl sm:text-3xl md:text-5xl font-bold'>Our Services</h2>
             <p className='text-sm sm:text-xl md:text-2xl text-gray-500 mt-1'>We take digital experience to the next level</p>
@@ -25,7 +29,11 @@ const Services = () => {
         {/* item section start */}
         <div className='grid grid-cols-1 sm:grid-cols-2 md:gird-cols-3 lg:grid-cols-4 gap-5 ml-10 md:ml-0 mt-8 mb-20'>
           {/* item1 start */}
-          <div>
+          <div
+            data-aos="fade-up"
+            data-aos-easing="linear"
+            data-aos-duration="1500"
+          >
             <Image src={one}></Image>
             <div className='mt-2'>
               <h4 className='text-base md:text-xl text-orange-500'>Digital-first 360 Strategy</h4>
@@ -34,7 +42,11 @@ const Services = () => {
           </div>
           {/* item1 end */}
           {/* item2 start */}
-          <div>
+          <div
+          data-aos="fade-up"
+          data-aos-easing="linear"
+          data-aos-duration="1500"
+          >
             <Image src={two}></Image>
             <div className='mt-2'>
               <h4 className='text-base md:text-xl text-blue-500'>Cross-media Content<br></br>Development</h4>
@@ -43,7 +55,11 @@ const Services = () => {
           </div>
           {/* item2 end */}
           {/* item3 start */}
-          <div>
+          <div
+          data-aos="fade-up"
+          data-aos-easing="linear"
+          data-aos-duration="2000"
+          >
             <Image src={three}></Image>
             <div className='mt-2'>
               <h4 className='text-base md:text-xl text-pink-500'>Web Experience</h4>
@@ -52,7 +68,11 @@ const Services = () => {
           </div>
           {/* item3 end */}
           {/* item4 start */}
-          <div>
+          <div
+          data-aos="fade-up"
+          data-aos-easing="linear"
+          data-aos-duration="2000"
+          >
             <Image src={four}></Image>
             <div className='mt-2'>
               <h4 className='text-base md:text-xl text-orange-500'>Apps & Games Development</h4>
@@ -61,7 +81,11 @@ const Services = () => {
           </div>
           {/* item4 end */}
           {/* item5 start */}
-          <div>
+          <div
+          data-aos="fade-up"
+          data-aos-easing="linear"
+          data-aos-duration="2000"
+          >
             <Image src={five}></Image>
             <div className='mt-2'>
               <h4 className='text-base md:text-xl text-pink-500'>Enterprise Software</h4>
@@ -70,7 +94,11 @@ const Services = () => {
           </div>
           {/* item5 end */}
           {/* item6 start */}
-          <div>
+          <div
+          data-aos="fade-up"
+          data-aos-easing="linear"
+          data-aos-duration="2000"
+          >
             <Image src={six}></Image>
             <div className='mt-2'>
               <h4 className='text-base md:text-xl text-yellow-500'>Data Analytics</h4>
@@ -79,7 +107,11 @@ const Services = () => {
           </div>
           {/* item6 end */}
           {/* item1 start */}
-          <div>
+          <div
+          data-aos="fade-up"
+          data-aos-easing="linear"
+          data-aos-duration="2000"
+          >
             <Image src={seven}></Image>
             <div className='mt-2'>
               <h4 className='text-base md:text-xl text-blue-500'>Community Management</h4>
@@ -88,7 +120,11 @@ const Services = () => {
           </div>
           {/* item1 end */}
           {/* item1 start */}
-          <div>
+          <div
+          data-aos="fade-up"
+          data-aos-easing="linear"
+          data-aos-duration="1500"
+          >
             <Image src={eight}></Image>
             <div className='mt-2'>
               <h4 className='text-base md:text-xl text-orange-500'>Digital Buying</h4>
