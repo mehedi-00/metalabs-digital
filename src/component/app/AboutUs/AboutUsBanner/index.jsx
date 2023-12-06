@@ -4,7 +4,7 @@ import { Modal } from "@mui/material";
 import { useState } from "react";
 import CloseIcon from "@mui/icons-material/Close";
 
-const ServiceBanner = () => {
+const AboutUsBanner = () => {
 
   const [open, setOpen] = useState(false);
   const handleOpen = () => setOpen(true);
@@ -21,7 +21,7 @@ const ServiceBanner = () => {
           <h1 className='text-sm sm:text-xl md:text-2xl lg:text-4xl font-bold uppercase'>from concept to reality</h1>
           <p className='text-lg sm:text-2xl md:text-4xl lg:text-6xl font-bold uppercase mt-2 lg:mt-5'>Fusing Creativity With<br></br>Marketing & Technology</p>
           <button className="my-8 uppercase bg-cyan-400 rounded-md px-4 py-3">
-            Contact Us
+            About Us
           </button>
         </div>
         <div className="mt-8  flex justify-center cursor-pointer animate-pulse relative ">
@@ -62,4 +62,4 @@ const ServiceBanner = () => {
   );
 };
 
-export default ServiceBanner;
+export default AboutUsBanner;
