@@ -114,5 +114,10 @@
 }
 
 
-
+.leftDreamDigital{
+  background-image: url('../public/aboutUs/dote.png');
+  background-position: top center;
+  background-size: 30%;
+  background-repeat: no-repeat;
+}
 

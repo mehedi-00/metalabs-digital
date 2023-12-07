@@ -12,7 +12,7 @@ const AboutUsBanner = () => {
 
   return (
     <div className='bannerBg text-white'>
-      <div className='container md:pt-28 pt-40 mx-auto h-[720px] md:h-[620px] w-full' >
+      <div className='container md:pt-28 pt-40 mx-auto w-full pb-10' >
         {/* banner section start */}
         <div className='flex ps-3 md:ps-0 flex-col justify-center items-center'
           data-aos="zoom-in-up"
@@ -21,17 +21,10 @@ const AboutUsBanner = () => {
           <h1 className='text-sm sm:text-xl md:text-2xl lg:text-4xl font-bold uppercase'>from concept to reality</h1>
           <p className='text-lg sm:text-2xl md:text-4xl lg:text-6xl font-bold uppercase mt-2 lg:mt-5'>Fusing Creativity With<br></br>Marketing & Technology</p>
           <button className="my-8 uppercase bg-cyan-400 rounded-md px-4 py-3">
-            About Us
+            Contact Us
           </button>
         </div>
-        <div className="mt-8  flex justify-center cursor-pointer animate-pulse relative ">
-          <div className="signal mt-1"></div>
-          <PlayCircleOutlineOutlinedIcon
-            onClick={handleOpen}
-            className="absolute top-1"
-            sx={{ fontSize: "100px", color: "white" }}
-          />
-        </div>
+
         {/* banner section end */}
       </div>
       <Modal
